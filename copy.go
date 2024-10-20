@@ -19,7 +19,7 @@ var (
 	ErrNotSupported           = errors.New("not supported")
 )
 
-// These flags define options for tag handling
+// These flags define options for tag handling test
 const (
 	// Denotes that a destination field must be copied to. If copying fails then a panic will ensue.
 	tagMust uint8 = 1 << iota
